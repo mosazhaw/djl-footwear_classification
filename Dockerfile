@@ -1,8 +1,15 @@
-FROM openjdk:17-jdk-slim
+# Usage
+# docker build -t mosazhaw/djl-footwear-classification .
+# docker run --name djl-footwear-classification -p 8080:8080 -d mosazhaw/djl-footwear-classification
+
+FROM openjdk:21-jdk-slim
 
 # Copy Files
 WORKDIR /usr/src/app
-COPY . .
+COPY models models
+COPY src src
+COPY .mvn .mvn
+COPY pom.xml mvnw ./
 
 # Install
 RUN ./mvnw -Dmaven.test.skip=true package

@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.2</version>
+		<version>3.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ch.zhaw.deeplearningjava</groupId>
@@ -20,25 +20,25 @@
 		<dependency>
 			<groupId>ai.djl.mxnet</groupId>
 			<artifactId>mxnet-model-zoo</artifactId>
-			<version>0.26.0</version>
+			<version>0.31.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>ai.djl</groupId>
 			<artifactId>model-zoo</artifactId>
-			<version>0.26.0</version>
+			<version>0.31.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>ai.djl</groupId>
 			<artifactId>basicdataset</artifactId>
-			<version>0.26.0</version>
+			<version>0.31.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>ai.djl</groupId>
 			<artifactId>api</artifactId>
-			<version>0.26.0</version>
+			<version>0.31.0</version>
 		</dependency>
 
 		<dependency>
