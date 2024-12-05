@@ -1,0 +1,3 @@
+# Maven wrapper
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
